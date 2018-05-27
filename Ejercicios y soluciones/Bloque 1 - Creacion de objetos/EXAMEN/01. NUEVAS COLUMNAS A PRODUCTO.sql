@@ -1,0 +1,5 @@
+ALTER TABLE Producto
+ADD Cod_Cate VARCHAR(8)
+
+ALTER TABLE Producto
+ADD Cod_Pres VARCHAR(8)

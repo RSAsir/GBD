@@ -1,0 +1,7 @@
+CREATE TABLE Proveedor (
+	Cod_Prov VARCHAR(8) CONSTRAINT PK_Cod_Prov PRIMARY KEY,
+	Nom_Prov VARCHAR(40),
+	Dir_Prov VARCHAR(50),
+	Telefono NUMERIC(9),
+	ID_Distrito VARCHAR(8)
+)

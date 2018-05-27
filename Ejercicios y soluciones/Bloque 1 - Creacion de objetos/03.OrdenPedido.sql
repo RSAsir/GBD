@@ -1,0 +1,9 @@
+CREATE TABLE OrdenPedido (
+	Num_OrdenPedido INT IDENTITY(1,1) CONSTRAINT PK_Num_OrdenPedido PRIMARY KEY,
+	Fecha TIMESTAMP NOT NULL,
+	Cod_Cli VARCHAR(8),
+	Cod_Emp VARCHAR(8),
+	Cod_Prod VARCHAR(8),
+	Cod_TipoPago VARCHAR(8),
+	Total MONEY NOT NULL
+)

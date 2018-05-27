@@ -1,0 +1,9 @@
+CREATE TABLE Producto (
+	Cod_Pro VARCHAR(8) CONSTRAINT PK_Cod_Pro PRIMARY KEY,
+	Nom_Pro VARCHAR(40) NOT NULL,
+	Prec_Venta DECIMAL(10,2) NOT NULL,
+	Prec_Compra DECIMAL(10,2),
+	Fecha_Venc DATE NOT NULL,
+	Stock INT NOT NULL,
+	Cod_Prov VARCHAR(8)
+)

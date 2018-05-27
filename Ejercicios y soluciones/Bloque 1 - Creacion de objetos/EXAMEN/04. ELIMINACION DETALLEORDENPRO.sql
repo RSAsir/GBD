@@ -1,0 +1,7 @@
+ALTER TABLE DetalleOrdenPro
+DROP CONSTRAINT FK_DET_Cod_Pro
+
+ALTER TABLE DetalleOrdenPro
+DROP CONSTRAINT PK_Num_OrdenP
+
+DROP TABLE DetalleOrdenPro

@@ -1,0 +1,13 @@
+--DROP TABLE J;
+CREATE TABLE J
+(J# CHAR(2) CONSTRAINT PK_J# PRIMARY KEY,
+ NOMJ VARCHAR(20) CONSTRAINT NN_NOMJ NOT NULL,
+ CIUDAD VARCHAR(15));
+
+INSERT INTO J VALUES ('J1','Clasificadora','Paris');
+INSERT INTO J VALUES ('J2','Perforadora','Roma');
+INSERT INTO J VALUES ('J3','Lectora','Atenas');
+INSERT INTO J VALUES ('J4','Consola','Atenas');
+INSERT INTO J VALUES ('J5','Cotejadora','Londres');
+INSERT INTO J VALUES ('J6','Terminal','Oslo');
+INSERT INTO J VALUES ('J7','Cinta','Londres');

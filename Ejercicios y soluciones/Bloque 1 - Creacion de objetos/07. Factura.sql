@@ -1,0 +1,10 @@
+CREATE TABLE Factura (
+	Num_Factura INT IDENTITY(1,1) CONSTRAINT PK_Num_Factura PRIMARY KEY,
+	Fecha DATETIME NOT NULL,
+	Cod_Emp VARCHAR(8) NOT NULL,
+	Cod_Cli VARCHAR(8) NOT NULL,
+	Num_OrdenPedido INT NOT NULL,
+	Subtotal MONEY NOT NULL,
+	Descuento INT,
+	Total MONEY NOT NULL
+)
