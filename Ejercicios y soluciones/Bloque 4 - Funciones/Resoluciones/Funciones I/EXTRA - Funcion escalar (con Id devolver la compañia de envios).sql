@@ -1,4 +1,4 @@
--- 2.- Introduciendo el id de un pedido, se pide obtener el nombre de la compañía encargada de realizarlo.
+-- Introduciendo el id de un pedido, se pide obtener el nombre de la compañía DE ENVIOS.
 
 -- LAS TABLAS QUE HAY EN PDF NO COINCIDEN CON LAS DE LA BBDD (REVISAR EL DIAGRAMA DESDE EL PROGRAMA).
 
